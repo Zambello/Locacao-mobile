@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Alucar</string>
+
+    <string name="action_settings">Opções</string>
+    <string name="label_manufacturer">Fabricante</string>
+    <string name="label_chassi">Chassi</string>
+    <string name="label_license">Placa</string>
+    <string name="label_state">Estado</string>
+    <string name="label_city">Cidade</string>
+    <string name="choose_state">Escolha um estado válido</string>
+
+    <string name="transition_name_model">transition:MODEL</string>
+    <string name="transition_name_manufacturer">transition:MANUFACTURER</string>
+    <string name="transition_name_state">transition:STATE</string>
+    <string name="transition_name_image" >transition:IMAGE</string>
+    <string name="transition_name_floating">transition:FLOATING</string>
+
+    <string name="error_label">Error</string>
+    <string name="unknow_host">Não foi possivel se conectar</string>
+</resources>

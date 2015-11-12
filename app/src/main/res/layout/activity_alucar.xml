@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/customToolbar"
+        app:popupTheme="@style/Theme.AppCompat.NoActionBar"
+        android:background="@color/ColorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="4dp"/>
+
+    <fragment
+        android:layout_marginTop="60dp"
+        android:name="com.alucar.fragment.AlucarFragment"
+        android:id="@+id/main_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
